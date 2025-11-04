@@ -1,0 +1,10 @@
+neo4j
+pandas
+tqdm
+matplotlib
+kaggle
+seaborn
+python-dotenv
+click
+paramiko
+rich

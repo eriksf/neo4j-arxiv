@@ -1,0 +1,6 @@
+uv run python insert.py arxiv-metadata-oai-snapshot.json 1 500
+uv run python insert.py arxiv-metadata-oai-snapshot.json 501 1000
+uv run python insert.py arxiv-metadata-oai-snapshot.json 1001 1500
+uv run python insert.py arxiv-metadata-oai-snapshot.json 1501 2000
+uv run python insert.py arxiv-metadata-oai-snapshot.json 2001 2500
+uv run python insert.py arxiv-metadata-oai-snapshot.json 2501 3000

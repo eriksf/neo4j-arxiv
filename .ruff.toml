@@ -1,0 +1,7 @@
+exclude = [".git", ".ruff_cache", ".vscode"]
+line-length = 300
+
+[lint]
+select = ["E", "F", "I", "UP"]
+fixable = ["ALL"]
+unfixable = ["F401"]
