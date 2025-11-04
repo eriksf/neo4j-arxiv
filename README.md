@@ -28,4 +28,28 @@ A python project using uv for interacting with a Neo4j database.
 > unzip arxiv.zip
 ```
 
-Should produce a file name `arxiv-metadata-oai-snapshot.json`.
+Should produce a file name `arxiv-metadata-oai-snapshot.json`. It contains a JSON entry per line.
+
+## Usage
+
+1. Copy `.env.sample` to `.env` and fill in the variables.
+
+2. Run the `insert.py` to insert data. Specify the input file (JSON file from above), start line to
+   start reading records, and end line to stop reading records.
+
+```console
+> uv run insert.py --help
+Usage: insert.py [OPTIONS] INPUT_FILE START_LINE END_LINE
+
+Options:
+  --version                       Show the version and exit.
+  --insert-data / --no-insert-data
+                                  Insert the data.  [default: insert-data]
+  --help                          Show this message and exit.
+```
+
+3. Run the `query.py` script to get some summary data back from the inserted data.
+
+```console
+> uv run query.py
+```
