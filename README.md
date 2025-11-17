@@ -6,8 +6,8 @@ A python project using uv for interacting with a Neo4j database.
 
 - Git
 - Python >= 3.12 (prefer using [asdf](https://asdf-vm.com/), [pyenv](https://github.com/pyenv/pyenv) or [uv managed versions](https://docs.astral.sh/uv/concepts/python-versions/) to system python)
-- [uv](https://docs.astral.sh/uv/)
 - [Kaggle API credentials](https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md)
+- [uv](https://docs.astral.sh/uv/)
   
   ```console
   > curl -LsSf https://astral.sh/uv/install.sh | sh
